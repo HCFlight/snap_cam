@@ -8,7 +8,7 @@ The package is to be compiled on the Snapdragon board. Two variants are provided
 For the pure CMake install variant, clone the required repositories in a directory, e.g. `~/src`:
 ```sh
 cd ~/src
-git clone https://github.com/PX4/snap_cam.git
+git clone https://github.com/HCFlight/snap_cam.git
 ```
 
 Initialize the Mavlink submodule:
@@ -74,7 +74,7 @@ Then clone the following three catkin packages and build
 cd src
 git clone https://github.com/ros-perception/vision_opencv
 git clone https://github.com/ros-perception/image_common
-git clone https://github.com/PX4/snap_cam.git
+git clone https://github.com/HCFlight/snap_cam.git
 cd ..
 catkin_make
 ```
